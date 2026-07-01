@@ -1,0 +1,121 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.background-green {
+  background: #02674B;
+}
+
+.min-vh-100 {
+  min-height: 100vh;
+}
+
+.login-box {
+  width: 480px;
+  min-width: 320px;
+  border-radius: 16px;
+  margin: 0 auto;
+}
+
+.register-box {
+  width: 100%;
+  max-width: 560px;
+  min-width: 320px;
+  border-radius: 16px;
+  margin: 0 auto;
+}
+
+.link-custom {
+  color: #2d6a4f;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.link-custom:hover {
+  color: #1b4332;
+  text-decoration: underline;
+}
+
+.auth-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.img-project{
+  width: 48px;
+  height: 48px;
+  object-fit: "cover";
+}
+
+.avatar{
+  width: 40px;
+  height: 40px;
+  object-fit: "cover";
+}
+.avatar-sm {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.avatar-md {
+    width: 56px;
+    height: 56px;
+    object-fit: cover;
+}
+
+.avatar-md-placeholder {
+    width: 56px;
+    height: 56px;
+    font-size: 1.5rem;
+    color: #ccc;
+}
+
+.avatar-lg {
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.avatar-lg-placeholder {
+    aspect-ratio: 1;
+    font-size: 3rem;
+    color: #ccc;
+}
+
+.card-img-cover {
+    height: 180px;
+    object-fit: cover;
+}
+
+.form-card-box {
+    width: 350px;
+}
+
+.search-input-group {
+    max-width: 300px;
+}
+
+.datatable-scroll {
+    overflow-x: auto;
+    overflow-y: visible;
+}
+
+.dropdown-menu {
+    z-index: 1055;
+}
+
+.section-subtitle {
+    font-size: 0.8rem;
+    letter-spacing: 0.04em;
+}
+@media (max-width: 480px) {
+  .login-box {
+    width: 90%;
+  }
+}
