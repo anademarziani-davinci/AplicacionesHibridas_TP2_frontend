@@ -11,7 +11,7 @@ Aplicación web en **React + Vite** que consume la API REST del backend (`../Api
 - **axios** para el consumo de la API (cliente centralizado con interceptores)
 - **react-hook-form + yup** para formularios y validación
 - **Bootstrap 5** para estilos y **react-toastify** para notificaciones
-- **@react-oauth/google** + **jwt-decode** para el login con Google
+- **jwt-decode** para el login
 
 ## Requisitos
 
