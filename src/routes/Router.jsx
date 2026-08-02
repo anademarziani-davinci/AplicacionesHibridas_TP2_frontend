@@ -16,6 +16,7 @@ const NuevoProyecto = lazy(() => import('../pages/proyectos/NuevoProyecto'))
 const EditarProyecto = lazy(() => import('../pages/proyectos/EditarProyecto'))
 const NuevoCliente = lazy(() => import('../pages/clientes/NuevoCliente'))
 const EditarCliente = lazy(() => import('../pages/clientes/EditarCliente'))
+const NotFoundPage = lazy(() => import('../pages/NotFoundPage'))
 
 const withSuspense = (element) => <Suspense fallback={<Spinner mensaje="Cargando página..." />}>{element}</Suspense>
 
@@ -35,7 +36,8 @@ const router = createBrowserRouter([
       { path: "/login", element: withSuspense(<Login />) },
       { path: "/register", element: withSuspense(<Register />) },
       { path: "/logout", element: withSuspense(<Logout />) },
-      { path: "/users", element: <ProtectedRoute element={withSuspense(<Users />)} rol={["admin"]} /> }
+      { path: "/users", element: <ProtectedRoute element={withSuspense(<Users />)} rol={["admin"]} /> },
+      { path: "*", element: <NotFoundPage /> }
     ]
   }
 ])
